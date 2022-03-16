@@ -1,5 +1,4 @@
-# cipherdaug-nmt
-Official code for the paper CipherDAug: Ciphertext based Data Augmentation for Neural Machine Translation published at ACL 2022 main conference.
+The official code for the paper **CipherDAug: Ciphertext based Data Augmentation for Neural Machine Translation** published at ACL 2022 main conference.
 
 
 # Generating ciphertexts from plaintext
@@ -18,4 +17,4 @@ the `-x` denotes the (src/tgt) side to encipher and we recommend using `-x src` 
 
 # CipherDAug fork of FairSeq
 
-[This](fairseq-cipherdaug) adaptation of [FairSeq](https://github.com/pytorch/fairseq) is crucial for the working of this codebase. More details on that [here](fairseq-cipherdaug/README.md).
+[Our adaptation](fairseq-cipherdaug) of [FairSeq](https://github.com/pytorch/fairseq) is crucial for the working of this codebase. More details on that [here](fairseq-cipherdaug/README.md).
