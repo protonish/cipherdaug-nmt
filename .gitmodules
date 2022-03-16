@@ -1,0 +1,3 @@
+[submodule "fairseq-cipherdaug"]
+	path = fairseq-cipherdaug
+	url = https://github.com/protonish/fairseq-cipherdaug.git
