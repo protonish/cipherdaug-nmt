@@ -18,4 +18,4 @@ the `-x` denotes the (src/tgt) side to encipher and we recommend using `-x src` 
 
 ## CipherDAug fork of FairSeq
 
-[Our fork](https://github.com/protonish/fairseq-cipherdaug) of [FairSeq](https://github.com/pytorch/fairseq) is crucial for the working of this codebase. More details on the changes [here](https://github.com/protonish/fairseq-cipherdaug/README.md).
+[Our fork](https://github.com/protonish/fairseq-cipherdaug) of [FairSeq](https://github.com/pytorch/fairseq) is crucial for the working of this codebase. More details on the changes [here](https://github.com/protonish/fairseq-cipherdaug/blob/main/README.md).
