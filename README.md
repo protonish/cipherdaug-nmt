@@ -1,10 +1,10 @@
 The official code for the paper **CipherDAug: Ciphertext based Data Augmentation for Neural Machine Translation** accepted to appear ACL 2022 main conference.
 
-### more scripts and instructions will be added soon ..
+### more scripts and instructions coming soon ..
 
 ## Generating ciphertexts from plaintext
 
-The simplest example to generate ciphertexts based on the [python script](cipher/encipher.py) would be
+The simplest way to generate ciphertexts based on the [python script](cipher/encipher.py) would be
 ```
 python cipher/encipher.py -i  path/to/inoput-file --keys a-key-value \
     --char-dict-path path/to/store/char-dictionary/necessary > output/path/and/filename
