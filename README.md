@@ -1,4 +1,4 @@
-The official code for the paper **CipherDAug: Ciphertext based Data Augmentation for Neural Machine Translation** accepted to appear ACL 2022 main conference.
+The official code for the paper **CipherDAug: Ciphertext based Data Augmentation for Neural Machine Translation** accepted to appear at ACL 2022 main conference.
 
 ### more scripts and instructions coming soon ..
 
