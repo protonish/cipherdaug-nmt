@@ -1,7 +1,8 @@
-The official code for the paper **CipherDAug: Ciphertext based Data Augmentation for Neural Machine Translation** published at ACL 2022 main conference.
+The official code for the paper **CipherDAug: Ciphertext based Data Augmentation for Neural Machine Translation** accepted to appear ACL 2022 main conference.
 
+### more scripts and instructions will be added soon ..
 
-# Generating ciphertexts from plaintext
+## Generating ciphertexts from plaintext
 
 The simplest example to generate ciphertexts based on the [python script](cipher/encipher.py) would be
 ```
@@ -15,6 +16,6 @@ bash encipher.sh -s de -t en -x src
 ```
 the `-x` denotes the (src/tgt) side to encipher and we recommend using `-x src` only. Note that `-x tgt` hasn't been tested since the initial phases of the project.
 
-# CipherDAug fork of FairSeq
+## CipherDAug fork of FairSeq
 
-[Our adaptation](fairseq-cipherdaug) of [FairSeq](https://github.com/pytorch/fairseq) is crucial for the working of this codebase. More details on that [here](fairseq-cipherdaug/README.md).
+[Our fork](https://github.com/protonish/fairseq-cipherdaug) of [FairSeq](https://github.com/pytorch/fairseq) is crucial for the working of this codebase. More details on the changes [here](https://github.com/protonish/fairseq-cipherdaug/README.md).
