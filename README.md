@@ -1,4 +1,4 @@
-The official code for the paper **CipherDAug: Ciphertext based Data Augmentation for Neural Machine Translation** accepted to appear at ACL 2022 main conference.
+The official code for the paper [CipherDAug: Ciphertext based Data Augmentation for Neural Machine Translation](https://arxiv.org/pdf/2204.00665.pdf) accepted to appear at ACL 2022 main conference.
 
 ### more scripts and instructions coming soon ..
 
@@ -19,3 +19,19 @@ the `-x` denotes the (src/tgt) side to encipher and we recommend using `-x src` 
 ## CipherDAug fork of FairSeq
 
 [Our fork](https://github.com/protonish/fairseq-cipherdaug) of [FairSeq](https://github.com/pytorch/fairseq) is crucial for the working of this codebase. More details on the changes [here](https://github.com/protonish/fairseq-cipherdaug/blob/main/README.md).
+
+## Cite
+```
+Bibtex : @inproceedings { kambhatla-etal-2022-cipherdaug,
+   abbr="ACL",
+   title = "CipherDAug: Ciphertext Based Data Augmentation for Neural Machine Translation",
+   author = "Kambhatla, Nishant and
+   Born, Logan and
+   Sarkar, Anoop",
+   booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Long Paper (To Appear)",
+   month = may,
+   year = "2022",
+   address = "Online",
+   publisher = "Association for Computational Linguistics",
+   } 
+```
