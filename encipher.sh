@@ -85,22 +85,8 @@ for KEY in "${KEYS[@]}"; do
             COPY_SELF_TGT="${SPLIT}.${SRC}${KEY}-${SRC}.${SRC}"
 
         elif [ ${SIDE} = "tgt" ]; then
-            echo "-x (side) : 'tgt'"
-            # SELF_OUT="${DATAROOT}/${TGT}/${TGT}x"
-            # OUT_DIR="${DATAROOT}/${SRC}/${TGT}x"
-            # mkdir -p ${SELF_OUT} ${OUT_DIR}
-
-            # FILE="${SPLIT}.${SRC}-${TGT}.${TGT}"
-            # CIPHER="${SPLIT}.${SRC}-${TGT}${KEY}.${TGT}${KEY}"
-            # # the parallel side of input file
-            # PARL="${SPLIT}.${SRC}-${TGT}.${SRC}"
-            # COPY_PARL="${SPLIT}.${SRC}-${TGT}${KEY}.${SRC}"
-            # # self copy [de - dex automatically]
-            # SELF_SRC="${DATAROOT}/${SRC}/${TGT}/${FILE}"
-            # SELF_TGT="${OUT_DIR}/${CIPHER}"
-            # COPY_SELF_SRC="${SPLIT}.${TGT}-${TGT}${KEY}.${TGT}"
-            # COPY_SELF_TGT="${SPLIT}.${TGT}-${TGT}${KEY}.${TGT}${KEY}"
-
+            echo "-x (side) : 'tgt' not supported yet. Exiting now.."
+	    exit 1
         fi
 
         if [ ! -f "${OUT_DIR}/${CIPHER}" ]; then
